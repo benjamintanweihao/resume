@@ -1,5 +1,5 @@
 To generate:
 
 ```
-prince index.html
+haml index.haml > index.html && prince index.html && open index.pdf
 ```
